@@ -5,6 +5,6 @@ import org.springframework.stereotype.Component;
 public class Deth8 {
     @Override
     public String toString() {
-        return "Deth8{}";
+        return "";
     }
 }
