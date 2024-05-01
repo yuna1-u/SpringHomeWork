@@ -1,17 +1,18 @@
 package peaksoft.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 public class Needle7 {
-    private Deth8 deth8;
+
+    private final Death8 death8;
 
     @Override
     public String toString() {
-        return ", смерть Кощея на игле :( " + deth8.toString();
+        return ", смерть Кощея на игле :( " + death8.toString();
     }
+
     @Autowired
-    public Needle7(Deth8 deth8) {
-        this.deth8 = deth8;
+    public Needle7(Death8 deth8) {
+        this.death8 = deth8;
     }
 }
